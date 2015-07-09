@@ -1,0 +1,635 @@
+/* Client-specific Styles */
+/* line 3, ../scss/style.scss */
+#outlook a {
+  padding: 0;
+}
+
+/* line 7, ../scss/style.scss */
+body {
+  width: 100% !important;
+  margin: 0;
+  padding: 0;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 15, ../scss/style.scss */
+.ExternalClass {
+  width: 100%;
+}
+/* line 17, ../scss/style.scss */
+.ExternalClass,
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td,
+.ExternalClass div {
+  line-height: 100%;
+}
+
+/* line 27, ../scss/style.scss */
+#backgroundTable {
+  width: 100% !important;
+  margin: 0;
+  padding: 0;
+  line-height: 100% !important;
+  text-align: center;
+}
+
+/* line 35, ../scss/style.scss */
+code {
+  background-color: #eee;
+  padding: 0 4px;
+  font-family: Menlo, Courier, monospace;
+  font-size: 12px;
+}
+
+/* line 42, ../scss/style.scss */
+hr {
+  border: 0;
+  border-bottom: 1px solid #cccccc;
+}
+
+/* End reset */
+/* line 49, ../scss/style.scss */
+img {
+  outline: none;
+  text-decoration: none;
+  -ms-interpolation-mode: bicubic;
+}
+
+/* line 55, ../scss/style.scss */
+a img {
+  border: none;
+}
+
+/* line 59, ../scss/style.scss */
+table {
+  border-spacing: 0;
+  mso-table-lspace: 0pt;
+  mso-table-rspace: 0pt;
+}
+/* line 63, ../scss/style.scss */
+table,
+table td {
+  border-collapse: collapse;
+}
+
+/* line 69, ../scss/style.scss */
+.ReadMsgBody {
+  width: 100%;
+  background-color: #ebebeb;
+}
+
+/* line 74, ../scss/style.scss */
+.yshortcuts a {
+  border-bottom: none !important;
+}
+
+/* SPECIFIC GLOBAL STYLES */
+/* line 79, ../scss/style.scss */
+#backgroundTable {
+  background-color: #b4b4b4;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 85, ../scss/style.scss */
+.main-td {
+  background-color: #b4b4b4;
+}
+
+/* line 89, ../scss/style.scss */
+.container {
+  width: 640px;
+  max-width: 640px;
+  background-color: #ffffff;
+}
+
+/* line 95, ../scss/style.scss */
+.col {
+  line-height: 20px;
+  text-align: left;
+  width: 100%;
+}
+
+/* line 101, ../scss/style.scss */
+.col-right {
+  line-height: 20px;
+  text-align: right;
+  width: 100%;
+}
+
+/* line 107, ../scss/style.scss */
+.container-padding {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* line 112, ../scss/style.scss */
+.mobile-padding {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/* line 117, ../scss/style.scss */
+.padded-txt {
+  padding: 10px;
+}
+
+/* line 121, ../scss/style.scss */
+.no-txt {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* line 126, ../scss/style.scss */
+.template-comment {
+  padding: 50px;
+  font-size: 30px;
+  line-height: 100%;
+}
+
+/************************** 
+ *************************
+  CANAL + email template 
+*************************
+**************************/
+/* line 149, ../scss/style.scss */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+/* line 153, ../scss/style.scss */
+.padded-bt {
+  margin: 10px 0;
+}
+
+/* line 157, ../scss/style.scss */
+.bt-canal {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  color: #537692;
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 9px;
+  font-weight: bold;
+  line-height: 18px;
+  text-align: center;
+  text-decoration: none;
+  width: 200px;
+  -webkit-text-size-adjust: none;
+  text-transform: uppercase;
+}
+
+/* line 173, ../scss/style.scss */
+.heading {
+  text-align: center;
+  background-color: #ffffff;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  padding: 10px 0;
+}
+
+/* line 181, ../scss/style.scss */
+.header {
+  background-color: #282828;
+  color: #ffffff;
+}
+
+/* line 186, ../scss/style.scss */
+.content-mail {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #4f4f4f;
+  line-height: 20px;
+  background-color: #f2f2f2;
+}
+
+/* line 193, ../scss/style.scss */
+.padded-content {
+  padding: 30px 50px;
+}
+
+/* line 199, ../scss/style.scss */
+.services {
+  color: #9ebed7;
+}
+
+/* line 203, ../scss/style.scss */
+.services-col1,
+.services-col2 {
+  line-height: 100%;
+  height: 310px;
+}
+
+/* line 209, ../scss/style.scss */
+.services-col1 {
+  background-color: #537692;
+}
+/* line 211, ../scss/style.scss */
+.services-col1 .normal {
+  color: #9ebed7;
+}
+/* line 214, ../scss/style.scss */
+.services-col1 .bloder {
+  color: #9ebed7;
+  font-weight: bold;
+}
+/* line 218, ../scss/style.scss */
+.services-col1 .important {
+  color: #304f69;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* line 225, ../scss/style.scss */
+.padded-service {
+  padding: 10px 25px;
+}
+
+/* line 229, ../scss/style.scss */
+.services-col2 {
+  background-color: #375975;
+  color: #ffffff;
+}
+/* line 232, ../scss/style.scss */
+.services-col2 .important {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* line 239, ../scss/style.scss */
+.services-links .bt-canal {
+  width: 144px;
+}
+
+/* line 244, ../scss/style.scss */
+.clientspace-txt {
+  color: #FFFFFF;
+}
+/* line 246, ../scss/style.scss */
+.clientspace-txt .text {
+  padding: 10px 0;
+  font-size: 13px;
+}
+/* line 250, ../scss/style.scss */
+.clientspace-txt .link {
+  font-weight: bold;
+  line-height: 100%;
+  font-size: 12px;
+  color: #79bef5;
+  text-decoration: none;
+}
+
+/* line 259, ../scss/style.scss */
+.padded-clientspace {
+  padding: 10px 20px;
+}
+
+/* line 265, ../scss/style.scss */
+.title {
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* line 270, ../scss/style.scss */
+.title-service-bold {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #375975;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* line 278, ../scss/style.scss */
+.title-service-normal {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #375975;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+/* line 287, ../scss/style.scss */
+.title-programme-bold {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #6293bb;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* line 295, ../scss/style.scss */
+.title-programme-normal {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #6293bb;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+/* line 302, ../scss/style.scss */
+.demande {
+  background-color: #505050;
+}
+/* line 304, ../scss/style.scss */
+.demande .demande-padded1 {
+  padding: 10px 0;
+}
+/* line 307, ../scss/style.scss */
+.demande .demande-padded2 {
+  padding: 15px 10px;
+}
+/* line 310, ../scss/style.scss */
+.demande .demande-title {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/* line 315, ../scss/style.scss */
+.demande .demande-txt {
+  color: #ffffff;
+  padding: 10px 0;
+}
+/* line 319, ../scss/style.scss */
+.demande .demande-blue {
+  color: #80c8ff;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 18px;
+}
+
+/* line 327, ../scss/style.scss */
+.mycanal {
+  background-color: #302f2f;
+}
+/* line 329, ../scss/style.scss */
+.mycanal .mycanal-padded1 {
+  padding: 10px 0;
+}
+/* line 332, ../scss/style.scss */
+.mycanal .mycanal-padded2 {
+  padding: 15px 10px;
+}
+/* line 335, ../scss/style.scss */
+.mycanal .mycanal-title {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/* line 340, ../scss/style.scss */
+.mycanal .mycanal-txt {
+  color: #ffffff;
+  padding: 10px 0;
+}
+/* line 344, ../scss/style.scss */
+.mycanal .mycanal-blue {
+  color: #80c8ff;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 100%;
+}
+/* line 350, ../scss/style.scss */
+.mycanal .bt-canal {
+  color: #505050;
+  width: 95px;
+}
+
+/* line 358, ../scss/style.scss */
+.title-exclu-bold {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #80c8ff;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* line 366, ../scss/style.scss */
+.title-exclu-normal {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #80c8ff;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+/* line 373, ../scss/style.scss */
+.exclu {
+  background-color: #80c8ff;
+}
+/* line 375, ../scss/style.scss */
+.exclu .exclu-padded1 {
+  text-align: right;
+  padding: 30px 0;
+}
+/* line 379, ../scss/style.scss */
+.exclu .exclu-padded2 {
+  padding: 30px 10px;
+}
+/* line 382, ../scss/style.scss */
+.exclu .exclu-title {
+  color: #4f4f4f;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/* line 387, ../scss/style.scss */
+.exclu .exclu-txt {
+  color: #4f4f4f;
+}
+/* line 390, ../scss/style.scss */
+.exclu .bt-canal {
+  color: #7dc3f9;
+  width: 95px;
+}
+
+/* line 398, ../scss/style.scss */
+.title-contact-bold {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #b5b5b5;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* line 406, ../scss/style.scss */
+.title-contact-normal {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #b5b5b5;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+/* line 416, ../scss/style.scss */
+.contact {
+  background-color: #f2f2f2;
+}
+/* line 418, ../scss/style.scss */
+.contact .contact-padded1 {
+  padding: 10px 30px;
+}
+/* line 421, ../scss/style.scss */
+.contact .contact-padded2 {
+  padding: 10px;
+}
+/* line 424, ../scss/style.scss */
+.contact .normal {
+  color: #69a1cd;
+}
+/* line 427, ../scss/style.scss */
+.contact .bloder {
+  color: #69a1cd;
+  font-weight: bold;
+}
+
+/* line 433, ../scss/style.scss */
+.footer {
+  text-align: center;
+}
+
+/* RESPONSIVE STYLES */
+@media screen and (max-width: 639px) {
+  /* TABLE STRUCTURE */
+  /* line 440, ../scss/style.scss */
+  table[class*="force-row"],
+  table[class="container"] {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /*---------------*/
+  /* line 446, ../scss/style.scss */
+  td[class*="mobile-padding"] {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+
+  /* line 450, ../scss/style.scss */
+  td[class*="no-padding"] {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  /* line 453, ../scss/style.scss */
+  td[class*="no-padding"] .padded-txt {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+
+  /* MOBILE IMAGES */
+  /* line 459, ../scss/style.scss */
+  img[class*="mobile-fluid-img"] {
+    width: 100%;
+    height: auto;
+  }
+
+  /* line 463, ../scss/style.scss */
+  img[class*="mobile-hide"],
+  div[class*="mobile-hide"],
+  br[class*="mobile-hide"],
+  table[class*="mobile-hide"] {
+    display: none !important;
+    visibility: hidden !important;
+  }
+
+  /* BACKGROUND IMAGES TO DISPLAY */
+  /*    td[class*="bg-image-1"] {
+        display:block;
+        background-image: url(http://lorempixel.com/output/people-q-g-640-480-4.jpg) !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+        width: 100% !important;
+        height: 250px !important;
+      } */
+  /************************** 
+   *************************
+    CANAL + email template 
+  *************************
+  **************************/
+  /* line 484, ../scss/style.scss */
+  a[class*="bt-canal"] {
+    line-height: 32px !important;
+    font-size: 15px !important;
+    padding: 0 10px !important;
+    width: auto !important;
+  }
+
+  /* line 491, ../scss/style.scss */
+  td[class*="header"] td[class*="col"] {
+    text-align: center !important;
+  }
+
+  /* BACKGROUND IMAGES TO DISPLAY */
+  /* line 496, ../scss/style.scss */
+  td[class*="bg-image-1"] {
+    display: block;
+    background-image: url(images/jumbotron-visuel-1-rwd.jpg) !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-color: #000000;
+    width: 100% !important;
+    height: 250px !important;
+  }
+
+  /* line 505, ../scss/style.scss */
+  img[class*="clientspace-bt"] {
+    width: auto !important;
+    height: auto !important;
+  }
+
+  /* line 509, ../scss/style.scss */
+  table[class*="ervices-col1"] {
+    height: auto !important;
+  }
+
+  /* line 512, ../scss/style.scss */
+  td[class*="services-links"] {
+    text-align: center !important;
+  }
+
+  /* line 515, ../scss/style.scss */
+  td[class="title"] {
+    text-align: center;
+  }
+
+  /* line 518, ../scss/style.scss */
+  span[class="title-service-bold"],
+  span[class="title-service-normal"],
+  span[class="title-programme-bold"],
+  span[class="title-programme-normal"],
+  span[class="title-exclu-bold"],
+  span[class="title-exclu-normal"],
+  span[class="title-contact-bold"],
+  span[class="title-contact-normal"] {
+    display: block;
+    clear: both;
+    line-height: 100%;
+  }
+
+  /* line 530, ../scss/style.scss */
+  td[class*="padded-content"],
+  td[class*="padded-service"],
+  td[class*="padded-clientspace"],
+  td[class*="demande-padded2"],
+  td[class*="mycanal-padded2"],
+  td[class*="exclu-padded1"],
+  td[class*="contact-padded1"] {
+    text-align: left !important;
+    padding: 15px !important;
+  }
+
+  /* line 540, ../scss/style.scss */
+  td[class*="exclu-padded2"],
+  td[class*="contact-padded2"] {
+    text-align: center !important;
+    padding: 10px !important;
+  }
+
+  /* line 545, ../scss/style.scss */
+  td[class*="footer-padded"] {
+    text-align: center !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  /* line 551, ../scss/style.scss */
+  td[class*="container-padding"] {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+}

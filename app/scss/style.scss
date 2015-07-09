@@ -1,0 +1,555 @@
+/* Client-specific Styles */
+
+#outlook a {
+    padding: 0;
+}
+
+body {
+    width: 100% !important;
+    margin: 0;
+    padding: 0;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+.ExternalClass {
+    width: 100%;
+    &,
+    p,
+    span,
+    font,
+    td,
+    div {
+        line-height: 100%;
+    }
+}
+
+#backgroundTable {
+    width: 100% !important;
+    margin: 0;
+    padding: 0;
+    line-height: 100% !important;
+    text-align: center;
+}
+
+code {
+    background-color: #eee;
+    padding: 0 4px;
+    font-family: Menlo, Courier, monospace;
+    font-size: 12px;
+}
+
+hr {
+    border: 0;
+    border-bottom: 1px solid #cccccc;
+}
+
+/* End reset */
+
+img {
+    outline: none;
+    text-decoration: none;
+    -ms-interpolation-mode: bicubic;
+}
+
+a img {
+    border: none;
+}
+
+table {
+    border-spacing: 0;
+    mso-table-lspace: 0pt;
+    mso-table-rspace: 0pt;
+    &,
+    td {
+        border-collapse: collapse;
+    }
+}
+
+.ReadMsgBody {
+    width: 100%;
+    background-color: #ebebeb;
+}
+
+.yshortcuts a {
+    border-bottom: none !important;
+}
+
+/* SPECIFIC GLOBAL STYLES */
+#backgroundTable {
+    background-color: #b4b4b4;
+    padding: 0;
+    margin: 0;
+}
+
+.main-td {
+    background-color: #b4b4b4;
+}
+
+.container {
+    width: 640px;
+    max-width: 640px;
+    background-color: #ffffff;
+}
+
+.col {
+    line-height: 20px;
+    text-align: left;
+    width: 100%;
+}
+
+.col-right {
+    line-height: 20px;
+    text-align: right;
+    width: 100%;
+}
+
+.container-padding {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.mobile-padding {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.padded-txt {
+    padding: 10px;
+}
+
+.no-txt {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.template-comment {
+    padding: 50px;
+    font-size: 30px;
+    line-height: 100%;
+}
+
+/************************** 
+ *************************
+  CANAL + email template 
+*************************
+**************************/
+
+// MIXINS
+@mixin getTypo($typo) {
+    @if $typo == "helvetica" {
+        font-family: Helvetica, Arial, sans-serif;
+        // if width is not passed, or empty do this
+    }
+    @else {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+body {
+    @include getTypo("helvetica");
+    font-size: 14px;
+}
+.padded-bt {
+    margin: 10px 0;
+}
+
+.bt-canal {
+    @include getTypo("Arial");
+    background-color: #ffffff;
+    color: #537692;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 9px;
+    font-weight: bold;
+    line-height: 18px;
+    text-align: center;
+    text-decoration: none;
+    width: 200px;
+    -webkit-text-size-adjust: none;
+    text-transform: uppercase;
+}
+
+.heading {
+    text-align: center;
+    background-color: #ffffff;
+    @include getTypo("helvetica");
+    font-size: 10px;
+    padding: 10px 0;
+}
+
+.header {
+    background-color: #282828;
+    color: #ffffff;
+}
+
+.content-mail {
+    @include getTypo("helvetica");
+    color: #4f4f4f;
+    line-height: 20px;
+    background-color: #f2f2f2;
+}
+
+.padded-content {
+    padding: 30px 50px;
+}
+
+$service-txt-color: #9ebed7;
+
+.services {
+    color: $service-txt-color;
+}
+
+.services-col1,
+.services-col2 {
+    line-height: 100%;
+    height: 310px;
+}
+
+.services-col1 {
+    background-color: #537692;
+    .normal {
+        color: $service-txt-color;
+    }
+    .bloder {
+        color: $service-txt-color;
+        font-weight: bold;
+    }
+    .important {
+        color: #304f69;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}
+
+.padded-service {
+    padding: 10px 25px;
+}
+
+.services-col2 {
+    background-color: #375975;
+    color: #ffffff;
+    .important {
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}
+
+.services-links {
+    .bt-canal {
+        width: 144px;
+    }
+}
+
+.clientspace-txt {
+    color: #FFFFFF;
+    .text{
+        padding: 10px 0;
+        font-size: 13px;
+    } 
+        .link {
+        font-weight: bold;
+        line-height:100%;
+        font-size: 12px;
+        color: #79bef5;
+        text-decoration: none;
+    }
+}
+
+.padded-clientspace {
+    padding: 10px 20px;
+}
+
+$title-txt-service-color: #375975;
+
+.title {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.title-service-bold {
+    @include getTypo("Arial");
+    color: $title-txt-service-color;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.title-service-normal {
+    @include getTypo("Arial");
+    color: $title-txt-service-color;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+$title-txt-programme-color: #6293bb;
+
+.title-programme-bold {
+    @include getTypo("Arial");
+    color: $title-txt-programme-color;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.title-programme-normal {
+    @include getTypo("Arial");
+    color: $title-txt-programme-color;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.demande {
+    background-color: #505050;
+    .demande-padded1 {
+        padding: 10px 0;
+    }
+    .demande-padded2 {
+        padding: 15px 10px;
+    }
+    .demande-title {
+        color: #ffffff;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .demande-txt {
+        color: #ffffff;
+        padding: 10px 0;
+    }
+    .demande-blue {
+        color: #80c8ff;
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 18px;
+    }
+}
+
+.mycanal {
+    background-color: #302f2f;
+    .mycanal-padded1 {
+        padding: 10px 0;
+    }
+    .mycanal-padded2 {
+        padding: 15px 10px;
+    }
+    .mycanal-title {
+        color: #ffffff;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .mycanal-txt {
+        color: #ffffff;
+        padding: 10px 0;
+    }
+    .mycanal-blue {
+        color: #80c8ff;
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 100%;
+    }
+    .bt-canal {
+        color: #505050;
+        width: 95px;
+    }
+}
+
+$title-txt-exclu-color: #80c8ff;
+
+.title-exclu-bold {
+    @include getTypo("Arial");
+    color: $title-txt-exclu-color;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.title-exclu-normal {
+    @include getTypo("Arial");
+    color: $title-txt-exclu-color;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.exclu {
+    background-color: #80c8ff;
+    .exclu-padded1 {
+        text-align: right;
+        padding: 30px 0;
+    }
+    .exclu-padded2 {
+        padding: 30px 10px;
+    }
+    .exclu-title {
+        color: #4f4f4f;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .exclu-txt {
+        color: #4f4f4f;
+    }
+    .bt-canal {
+        color: #7dc3f9;
+        width: 95px;
+    }
+}
+
+$title-txt-contact-color: #b5b5b5;
+
+.title-contact-bold {
+    @include getTypo("Arial");
+    color: $title-txt-contact-color;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.title-contact-normal {
+    @include getTypo("Arial");
+    color: $title-txt-contact-color;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+$contact-txt-title-color: #8c8c8c;
+$contact-txt-color: #69a1cd;
+
+.contact {
+    background-color: #f2f2f2;
+    .contact-padded1 {
+        padding: 10px 30px;
+    }
+    .contact-padded2 {
+        padding: 10px;
+    }
+    .normal {
+        color: $contact-txt-color;
+    }
+    .bloder {
+        color: $contact-txt-color;
+        font-weight: bold;
+    }
+}
+
+.footer {
+    text-align: center;
+}
+
+/* RESPONSIVE STYLES */
+@media screen and (max-width: 639px) {
+    /* TABLE STRUCTURE */
+    table[class*="force-row"],
+    table[class="container"] {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    /*---------------*/
+    td[class*="mobile-padding"] {
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+    }
+    td[class*="no-padding"] {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        .padded-txt {
+            padding-left: 12px !important;
+            padding-right: 12px !important;
+        }
+    }
+    /* MOBILE IMAGES */
+    img[class*="mobile-fluid-img"] {
+        width: 100%;
+        height: auto;
+    }
+    img[class*="mobile-hide"],
+    div[class*="mobile-hide"],
+    br[class*="mobile-hide"],
+    table[class*="mobile-hide"] {
+        display: none !important;
+        visibility: hidden !important;
+    }
+    /* BACKGROUND IMAGES TO DISPLAY */
+    /*    td[class*="bg-image-1"] {
+          display:block;
+          background-image: url(http://lorempixel.com/output/people-q-g-640-480-4.jpg) !important;
+          background-repeat: no-repeat !important;
+          background-position: center !important;
+          width: 100% !important;
+          height: 250px !important;
+        } */
+    /************************** 
+     *************************
+      CANAL + email template 
+    *************************
+    **************************/
+    a[class*="bt-canal"]{
+        line-height: 32px !important;
+        font-size: 15px !important;
+        padding: 0 10px !important;
+        width:auto !important;
+    }
+    td[class*="header"] {
+        td[class*="col"] {
+            text-align: center !important;
+        }
+    }
+    /* BACKGROUND IMAGES TO DISPLAY */
+    td[class*="bg-image-1"] {
+        display: block;
+        background-image: url(images/jumbotron-visuel-1-rwd.jpg) !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+        background-color: #000000;
+        width: 100% !important;
+        height: 250px !important;
+    }
+    img[class*="clientspace-bt"] {
+        width: auto !important;
+        height: auto !important;
+    }
+    table[class*="ervices-col1"] {
+        height: auto !important;
+    }
+    td[class*="services-links"] {
+        text-align: center !important;
+    }
+    td[class="title"] {
+        text-align: center;
+    }
+    span[class="title-service-bold"],
+    span[class="title-service-normal"],
+    span[class="title-programme-bold"],
+    span[class="title-programme-normal"],
+    span[class="title-exclu-bold"],
+    span[class="title-exclu-normal"],
+    span[class="title-contact-bold"],
+    span[class="title-contact-normal"] {
+        display: block;
+        clear: both;
+        line-height: 100%;
+    }
+    td[class*="padded-content"],
+    td[class*="padded-service"],
+    td[class*="padded-clientspace"],
+    td[class*="demande-padded2"],
+    td[class*="mycanal-padded2"],
+    td[class*="exclu-padded1"],
+    td[class*="contact-padded1"] {
+        text-align: left !important;
+        padding: 15px !important;
+    }
+    td[class*="exclu-padded2"],
+    td[class*="contact-padded2"] {
+        text-align: center !important;
+        padding: 10px !important;
+    }
+    td[class*="footer-padded"] {
+        text-align: center !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    td[class*="container-padding"] {
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+    }
+}
