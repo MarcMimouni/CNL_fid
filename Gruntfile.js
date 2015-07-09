@@ -148,14 +148,14 @@ module.exports = function (grunt) {
                         service: 'Gmail',
                         auth: {
                             user: 'thomas.alvesmachado@rappfrance.com',
-                            pass: '******'
+                            pass: '*********'
                         }
                     }
                 },
                 recipients: [
                     {
                         name: 'litmus tester',
-                        email: 't.alvesmachado@gmail.com'
+                        email: 'rappfrance5.e74aeb0.new@emailtests.com'
                     }
                 ]
             },
