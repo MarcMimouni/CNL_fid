@@ -148,7 +148,7 @@ module.exports = function (grunt) {
                         service: 'Gmail',
                         auth: {
                             user: 'thomas.alvesmachado@rappfrance.com',
-                            pass: 'Cb2753rapp'
+                            pass: '******'
                         }
                     }
                 },
